@@ -100,6 +100,9 @@ body {
 			font-size: 8rem;
 			letter-spacing: 4px;
 			margin: 0;
+			@media screen and (max-width: 1200px) {
+				font-size: 6rem;
+			}
 		}
 		&__subtitle {
 			font-size: 1.8rem;
@@ -157,6 +160,9 @@ body {
 	&__logo {
 		margin-right: 85px;
 		transition: filter .3s;
+		@media screen and (max-width: 1070px) {
+		margin-right: 35px;
+	}
 		&:hover,
 		&:focus {
 			filter: brightness(85%)
@@ -173,6 +179,7 @@ body {
 	align-items: center;
 	width: 65%;
 	&__item {
+		display: inline-block;
 		color: #fff;
 		text-transform: uppercase;
 		font-size: 1.4rem;
@@ -180,6 +187,7 @@ body {
 		text-align: right;
 		@media screen and (max-width: 1260px) {
 		font-size: 1.2rem;
+		margin-right: 2em;
 	}
 		&::before {
 			content: '';
@@ -190,6 +198,9 @@ body {
 			border: 1px solid #fff;
 			margin-right: 15px;
 			transition: all .3s;
+			@media screen and (max-width: 1260px) {
+				margin-right: 5px;
+			}
 		}
 		&:hover::before,
 		&:focus::before {
@@ -213,6 +224,9 @@ body {
 		justify-content: center;
 		align-items: center;
 		transition: all .3s;
+		@media screen and (max-width: 1260px) {
+		// margin-left: 10px;
+	}
 		&:hover,
 		&:focus {
 			border: 1px solid rgba(255, 255, 255, 1);
@@ -324,10 +338,14 @@ body {
 	&__bg {
 		background-color: $accent-blue;
 		position: absolute;
-		width: 585px;
+		width: 35.2%;
 		height: 470px;
 		top: 0;
 		z-index: -10;
+		@media screen and (max-width: 1200px) {
+			height: 0;
+			padding-top: 40%;
+			}
 		&--right {
 			right: 0;
 			background-color: $accent-violet;
@@ -554,6 +572,10 @@ body {
 	}
 	&__author {
 		text-transform: uppercase;
+		@media screen and (max-width: 1260px) {
+			font-size: 1.5rem;
+		}
+
 	}
 	&__date {
 		font-size: 1.4rem;

@@ -519,6 +519,9 @@ body {
     font-size: 8rem;
     letter-spacing: 4px;
     margin: 0; }
+    @media screen and (max-width: 1200px) {
+      .content__title {
+        font-size: 6rem; } }
   .content__subtitle {
     font-size: 1.8rem;
     letter-spacing: 5.4px; }
@@ -582,6 +585,9 @@ body {
     -o-transition: filter .3s;
     transition: filter .3s;
     transition: filter .3s, -webkit-filter .3s; }
+    @media screen and (max-width: 1070px) {
+      .heading__logo {
+        margin-right: 35px; } }
     .heading__logo:hover, .heading__logo:focus {
       -webkit-filter: brightness(85%);
       filter: brightness(85%); }
@@ -601,6 +607,7 @@ body {
   align-items: center;
   width: 65%; }
   .nav__item {
+    display: inline-block;
     color: #fff;
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -608,7 +615,8 @@ body {
     text-align: right; }
     @media screen and (max-width: 1260px) {
       .nav__item {
-        font-size: 1.2rem; } }
+        font-size: 1.2rem;
+        margin-right: 2em; } }
     .nav__item::before {
       content: '';
       display: inline-block;
@@ -620,6 +628,9 @@ body {
       -webkit-transition: all .3s;
       -o-transition: all .3s;
       transition: all .3s; }
+      @media screen and (max-width: 1260px) {
+        .nav__item::before {
+          margin-right: 5px; } }
     .nav__item:hover::before, .nav__item:focus::before {
       background-color: #fff; }
     .nav__item:active::before {
@@ -744,10 +755,14 @@ body {
 .projects__bg {
   background-color: #55b7ff;
   position: absolute;
-  width: 585px;
+  width: 35.2%;
   height: 470px;
   top: 0;
   z-index: -10; }
+  @media screen and (max-width: 1200px) {
+    .projects__bg {
+      height: 0;
+      padding-top: 40%; } }
   .projects__bg--right {
     right: 0;
     background-color: #7e5aff; }
@@ -978,6 +993,9 @@ body {
     font-family: 'Gthm-Book'; }
   .caption__author {
     text-transform: uppercase; }
+    @media screen and (max-width: 1260px) {
+      .caption__author {
+        font-size: 1.5rem; } }
   .caption__date {
     font-size: 1.4rem;
     color: #55b7ff; }
