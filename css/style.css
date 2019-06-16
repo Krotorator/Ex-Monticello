@@ -995,7 +995,7 @@ body {
     text-transform: uppercase; }
     @media screen and (max-width: 1260px) {
       .caption__author {
-        font-size: 1.5rem; } }
+        font-size: 1.2rem; } }
   .caption__date {
     font-size: 1.4rem;
     color: #55b7ff; }
