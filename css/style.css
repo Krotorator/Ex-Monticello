@@ -720,7 +720,8 @@ body {
     height: 100%; }
   .section__background--footer {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    z-index: -2; }
 
 .section__title {
   text-align: center;
@@ -1121,7 +1122,7 @@ body {
 .footer {
   position: relative;
   padding: 200px 0;
-  z-index: 500; }
+  z-index: 1000; }
   .footer__heading {
     display: -webkit-box;
     display: -ms-flexbox;
