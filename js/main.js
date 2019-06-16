@@ -23,10 +23,8 @@ window.onload = function () {
         autoplaySpeed: 4000
     });
 
-    // MAP
-
-    
 }
+// MAP
 
 function initMap() {
 
