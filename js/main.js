@@ -177,7 +177,7 @@ function initMap() {
     var marker = new google.maps.Marker({ 
         position: markerCenter, 
         map: map,
-        icon: '../img/marker.svg' 
+        icon: './img/marker.svg' 
     });
 }
 
