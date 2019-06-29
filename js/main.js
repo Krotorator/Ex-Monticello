@@ -14,7 +14,7 @@ window.onload = function () {
     $('.news__content').slick({
         infinite: true,
         vertical: false,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
         dots: true,
