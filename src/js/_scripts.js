@@ -1,5 +1,12 @@
 (function () { 
 
+    if(!(true || false) || false) {
+        console.log('true')
+    } else {console.log('false')}
+
+
+    true && (false || true) ? console.log('true') : console.log('false')
+
     var btn = $('.burger');
     var nav = $('.nav');
 

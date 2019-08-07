@@ -11261,6 +11261,13 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 ;
 (function () { 
 
+    if(!(true || false) || false) {
+        console.log('true')
+    } else {console.log('false')}
+
+
+    true && (false || true) ? console.log('true') : console.log('false')
+
     var btn = $('.burger');
     var nav = $('.nav');
 
